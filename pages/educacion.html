@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.svg" width="100px" alt="Logo Franco Martinez" title="Logo Franco Martinez">
+      <h1>Hoja de Vida</h1>
+      <h2>Datos Personales</h2>
+      <h3>Apellido: Martínez</h3>
+      <h3>Nombres: Franco Emanuel</h3>
+      <h3>Fecha de Nacimiento: 09/08/1979</h3>
+      <h3>Lugar de Nacimiento: Cinco Saltos (RN), Argentina</h3>
+      <a href="../index.html">Inicio</a> - <a href="#">Educación</a> - <a href="experiencia.html">Experiencia</a>
+      <hr>
+    </header>
+    <main>
+      <h2>Educación</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2020</td>
+            <td>NextU</td>
+            <td>Online</td>
+            <td>En curso</td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>NextU</td>
+            <td>Online</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>1998</td>
+            <td>CEM Nº95</td>
+            <td>Cinco Saltos-RN</td>
+            <td>Sí</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Agregar Estudios</h3>
+      <form action="#" method="post">
+        <label for="year">Año</label>
+        <select id="year" >
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+          <option value="2009">2009</option>
+        </select><br />
+        <label for="institucion">Institución</label>
+        <input type="text" id="institucion" required><br />
+        <label for="lugar">Lugar</label>
+        <textarea id="lugar" rows="2" cols="26"></textarea><br />
+        <input type="submit" value="Enviar">
+      </form>
+    </main>
+    <footer>
+      <hr>
+      <address>
+        <a href="https://www.linkedin.com/in/francomartinez/">LinkedIn</a><br />
+        masterfem@yahoo.com<br />
+        (+54 9 299) 501-9230<br />
+        Cinco Saltos - Patagonia Argentina
+      </address>
+    </footer>
+  </body>
+</html>
